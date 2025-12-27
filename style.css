@@ -67,3 +67,32 @@ footer {
 .buy-btn:hover {
   opacity: 0.9;
 }
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  width: 90px;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 300px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.nav-right {
+  font-size: 22px;
+  cursor: pointer;
+}
