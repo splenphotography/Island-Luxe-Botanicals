@@ -145,3 +145,19 @@ footer {
   background: #1ebe5d;
   color: white;
 }
+
+.featured {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.featured-items {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+}
+
+.featured-items img {
+  width: 140px;
+  border-radius: 12px;
+}
